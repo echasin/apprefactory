@@ -1,0 +1,29 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipName": "asset",
+            "otherEntityName": "asset",
+            "relationshipType": "one-to-many",
+            "otherEntityRelationshipName": "assetrecordtype"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required",
+                "maxlength"
+            ],
+            "fieldValidateRulesMaxlength": "50"
+        }
+    ],
+    "changelogDate": "20170509034144",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "assetrecordtype",
+    "pagination": "pagination",
+    "microserviceName": "asset",
+    "searchEngine": "elasticsearch"
+}

@@ -1,0 +1,22 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required",
+                "maxlength"
+            ],
+            "fieldValidateRulesMaxlength": "50"
+        }
+    ],
+    "changelogDate": "20170509034044",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "model",
+    "pagination": "pagination",
+    "microserviceName": "asset",
+    "searchEngine": "elasticsearch"
+}
